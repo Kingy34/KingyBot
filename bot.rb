@@ -69,7 +69,7 @@ bot.command(:lmgtfy, min_args: 1, description: 'Generates Let Me Goole That For 
       end
 
 bot.command(:google, min_args: 1, description: 'Generates a Google search for you', usage: 'google <text>') do |event, *text|
-        "https://www.google.de/search?q=+#{text.join('+')}"
+        "https://www.google.com/search?q=+#{text.join('+')}"
       end
 
 	bot.command(:invite) do |event|
